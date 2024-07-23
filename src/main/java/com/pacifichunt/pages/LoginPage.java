@@ -185,4 +185,11 @@ public class LoginPage extends BaseClass {
 		return expectedDashboardText;
 	}
 
+	public void checkLoginScenariosWithParameters(String email, String password) {
+
+		this.emailId.sendKeys(email);
+		this.password.sendKeys(password);
+
+	}
+
 }

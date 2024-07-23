@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 23 12:59:24 NPT 2024</td>
+<td>Started on:</td><td>Tue Jul 23 13:10:23 NPT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13707 ms)</td>
+<tr><td>Total time:</td><td>24 seconds (24426 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,32 +76,62 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.pacifichunt.tests.LoginAsJobSeekerTest.verifyEmptyUsernameAndEmptyPassword()'><b>verifyEmptyUsernameAndEmptyPassword</b><br>Test class: com.pacifichunt.tests.LoginAsJobSeekerTest<br>Test method: 
+<td title='com.pacifichunt.tests.LoginAsEmployerTest.verifyMultipleLoginScenario()'><b>verifyMultipleLoginScenario</b><br>Test class: com.pacifichunt.tests.LoginAsEmployerTest<br>Test method: 
+** User Story **
+== Verify Empty Email & Password Login Scenario ==
+As a User, I should be getting an Error When Empty Credentials are Provided.
+<br>Parameters: nocifew594@ikangou.com, Test@123<br/>
+<a href="#Output-1349872758" onClick='toggleBox("Output-1349872758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1349872758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1349872758">
+
+== EXECUTING MEDIUM PRIORITY TEST ==<br/>
+Before Finding ElementBy.xpath: //button[.='Login']<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (296bd8e906b0f57fcdb24bf394879085)] -> xpath: //button[.='Login']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (296bd8e906b0f57fcdb24bf394879085)] -> xpath: //button[.='Login']]<br/>
+Before Finding ElementBy.xpath: //button[.='LOGIN AS EMPLOYER']<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (296bd8e906b0f57fcdb24bf394879085)] -> xpath: //button[.='LOGIN AS EMPLOYER']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (296bd8e906b0f57fcdb24bf394879085)] -> xpath: //button[.='LOGIN AS EMPLOYER']]<br/>
+Before Finding ElementBy.name: email<br/>
+Before sending any values to input field[[ChromeDriver: chrome on windows (296bd8e906b0f57fcdb24bf394879085)] -> name: email]<br/>
+Before Finding ElementBy.name: password<br/>
+Before sending any values to input field[[ChromeDriver: chrome on windows (296bd8e906b0f57fcdb24bf394879085)] -> name: password]<br/>
+Before Finding ElementBy.xpath: //button[@type='submit']<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (296bd8e906b0f57fcdb24bf394879085)] -> xpath: //button[@type='submit']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (296bd8e906b0f57fcdb24bf394879085)] -> xpath: //button[@type='submit']]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.pacifichunt.tests.LoginAsEmployerTest@72e5a8e</td></tr>
+<tr>
+<td title='com.pacifichunt.tests.LoginAsEmployerTest.verifyEmptyUsernameAndEmptyPassword()'><b>verifyEmptyUsernameAndEmptyPassword</b><br>Test class: com.pacifichunt.tests.LoginAsEmployerTest<br>Test method: 
 ** User Story **
 == Verify Empty Email & Password Login Scenario ==
 As a User, I should be getting an Error When Empty Credentials are Provided.
 <br/>
-<a href="#Output-1035363280" onClick='toggleBox("Output-1035363280", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1255395942" onClick='toggleBox("Output-1255395942", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1035363280" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1035363280">
+<a href="#Output-1255395942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1255395942">
 
 == EXECUTING MEDIUM PRIORITY TEST ==<br/>
 Before Finding ElementBy.xpath: //button[.='Login']<br/>
-Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='Login']]<br/>
-After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='Login']]<br/>
-Before Finding ElementBy.xpath: //button[.='LOGIN AS JOBSEEKER']<br/>
-Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]<br/>
-After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (7f04705b1ae3ae1aebcb723ffe6b0daf)] -> xpath: //button[.='Login']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (7f04705b1ae3ae1aebcb723ffe6b0daf)] -> xpath: //button[.='Login']]<br/>
+Before Finding ElementBy.xpath: //button[.='LOGIN AS EMPLOYER']<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (7f04705b1ae3ae1aebcb723ffe6b0daf)] -> xpath: //button[.='LOGIN AS EMPLOYER']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (7f04705b1ae3ae1aebcb723ffe6b0daf)] -> xpath: //button[.='LOGIN AS EMPLOYER']]<br/>
 Before Finding ElementBy.name: email<br/>
-Before sending any values to input field[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> name: email]<br/>
+Before sending any values to input field[[ChromeDriver: chrome on windows (7f04705b1ae3ae1aebcb723ffe6b0daf)] -> name: email]<br/>
 Before Finding ElementBy.name: password<br/>
-Before sending any values to input field[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> name: password]<br/>
+Before sending any values to input field[[ChromeDriver: chrome on windows (7f04705b1ae3ae1aebcb723ffe6b0daf)] -> name: password]<br/>
 Before Finding ElementBy.xpath: //button[@type='submit']<br/>
-Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[@type='submit']]<br/>
-After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[@type='submit']]<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (7f04705b1ae3ae1aebcb723ffe6b0daf)] -> xpath: //button[@type='submit']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (7f04705b1ae3ae1aebcb723ffe6b0daf)] -> xpath: //button[@type='submit']]<br/>
 Before Finding ElementBy.xpath: //p[.='Email is required']<br/>
-After getting Text from the element:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //p[.='Email is required']]<br/>
+After getting Text from the element:[[ChromeDriver: chrome on windows (7f04705b1ae3ae1aebcb723ffe6b0daf)] -> xpath: //p[.='Email is required']]<br/>
 
 === Your Test has been Passed Successfully ===
 <br/>
@@ -109,42 +139,67 @@ After getting Text from the element:[[ChromeDriver: chrome on windows (9ed2b4ada
 </td>
 <td></td>
 <td>1</td>
-<td>com.pacifichunt.tests.LoginAsJobSeekerTest@659499f1</td></tr>
+<td>com.pacifichunt.tests.LoginAsEmployerTest@72e5a8e</td></tr>
 <tr>
-<td title='com.pacifichunt.tests.LoginAsJobSeekerTest.verifyValidLoginAsJobSeeker()'><b>verifyValidLoginAsJobSeeker</b><br>Test class: com.pacifichunt.tests.LoginAsJobSeekerTest<br>Test method: 
+<td title='com.pacifichunt.tests.LoginAsEmployerTest.verifyMultipleLoginScenario()'><b>verifyMultipleLoginScenario</b><br>Test class: com.pacifichunt.tests.LoginAsEmployerTest<br>Test method: 
 ** User Story **
-== Verify Valid Login Scenario ==
-As a User, I should be able to Login.
-<br/>
-<a href="#Output-577037372" onClick='toggleBox("Output-577037372", this, "Show output", "Hide output");'>Show output</a>
+== Verify Empty Email & Password Login Scenario ==
+As a User, I should be getting an Error When Empty Credentials are Provided.
+<br>Parameters: InvalidEmail@gmail.com, invalidPassword<br/>
+<a href="#Output-1063423209" onClick='toggleBox("Output-1063423209", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-577037372" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-577037372">
+<a href="#Output-1063423209" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1063423209">
 
-== EXECUTING VERY HIGH PRIORITY TEST ==<br/>
+== EXECUTING MEDIUM PRIORITY TEST ==<br/>
 Before Finding ElementBy.xpath: //button[.='Login']<br/>
-Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='Login']]<br/>
-After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='Login']]<br/>
-Before Finding ElementBy.xpath: //button[.='LOGIN AS JOBSEEKER']<br/>
-Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]<br/>
-After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (e660332f18264f33da75fc228f84a528)] -> xpath: //button[.='Login']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (e660332f18264f33da75fc228f84a528)] -> xpath: //button[.='Login']]<br/>
+Before Finding ElementBy.xpath: //button[.='LOGIN AS EMPLOYER']<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (e660332f18264f33da75fc228f84a528)] -> xpath: //button[.='LOGIN AS EMPLOYER']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (e660332f18264f33da75fc228f84a528)] -> xpath: //button[.='LOGIN AS EMPLOYER']]<br/>
 Before Finding ElementBy.name: email<br/>
-Before sending any values to input field[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> name: email]<br/>
+Before sending any values to input field[[ChromeDriver: chrome on windows (e660332f18264f33da75fc228f84a528)] -> name: email]<br/>
 Before Finding ElementBy.name: password<br/>
-Before sending any values to input field[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> name: password]<br/>
+Before sending any values to input field[[ChromeDriver: chrome on windows (e660332f18264f33da75fc228f84a528)] -> name: password]<br/>
 Before Finding ElementBy.xpath: //button[@type='submit']<br/>
-Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[@type='submit']]<br/>
-After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[@type='submit']]<br/>
-Before Finding ElementBy.xpath: //li[.='Dashboard']<br/>
-After getting Text from the element:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //li[.='Dashboard']]<br/>
-
-=== Your Test has been Passed Successfully ===
-<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (e660332f18264f33da75fc228f84a528)] -> xpath: //button[@type='submit']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (e660332f18264f33da75fc228f84a528)] -> xpath: //button[@type='submit']]<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>com.pacifichunt.tests.LoginAsJobSeekerTest@659499f1</td></tr>
+<td>1</td>
+<td>com.pacifichunt.tests.LoginAsEmployerTest@72e5a8e</td></tr>
+<tr>
+<td title='com.pacifichunt.tests.LoginAsEmployerTest.verifyMultipleLoginScenario()'><b>verifyMultipleLoginScenario</b><br>Test class: com.pacifichunt.tests.LoginAsEmployerTest<br>Test method: 
+** User Story **
+== Verify Empty Email & Password Login Scenario ==
+As a User, I should be getting an Error When Empty Credentials are Provided.
+<br>Parameters: nocifew594@ikangou.com, test123<br/>
+<a href="#Output-1607458416" onClick='toggleBox("Output-1607458416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1607458416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1607458416">
+
+== EXECUTING MEDIUM PRIORITY TEST ==<br/>
+Before Finding ElementBy.xpath: //button[.='Login']<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (2e397fa92813096db3d5831da36ba7dd)] -> xpath: //button[.='Login']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (2e397fa92813096db3d5831da36ba7dd)] -> xpath: //button[.='Login']]<br/>
+Before Finding ElementBy.xpath: //button[.='LOGIN AS EMPLOYER']<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (2e397fa92813096db3d5831da36ba7dd)] -> xpath: //button[.='LOGIN AS EMPLOYER']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (2e397fa92813096db3d5831da36ba7dd)] -> xpath: //button[.='LOGIN AS EMPLOYER']]<br/>
+Before Finding ElementBy.name: email<br/>
+Before sending any values to input field[[ChromeDriver: chrome on windows (2e397fa92813096db3d5831da36ba7dd)] -> name: email]<br/>
+Before Finding ElementBy.name: password<br/>
+Before sending any values to input field[[ChromeDriver: chrome on windows (2e397fa92813096db3d5831da36ba7dd)] -> name: password]<br/>
+Before Finding ElementBy.xpath: //button[@type='submit']<br/>
+Before Clicking:[[ChromeDriver: chrome on windows (2e397fa92813096db3d5831da36ba7dd)] -> xpath: //button[@type='submit']]<br/>
+After Clicking:[[ChromeDriver: chrome on windows (2e397fa92813096db3d5831da36ba7dd)] -> xpath: //button[@type='submit']]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.pacifichunt.tests.LoginAsEmployerTest@72e5a8e</td></tr>
 </table><p>
 </body>
 </html>
