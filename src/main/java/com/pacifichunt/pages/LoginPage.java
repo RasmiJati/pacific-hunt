@@ -18,7 +18,7 @@ public class LoginPage extends BaseClass {
 	WebDriver driver;
 	Properties prop;
 	FileInputStream credentials;
-	private static String secretsPropertiesPath = "./src/main/java/configs/secrets.properties";
+	private static String secretsPropertiesPath = "./src/main/java/com/pacifichunt/configs/secrets.properties";
 	private static final String expectedInvalidEmailText = "Invalid Email";
 	private static final String expectedEmptyEmailText = "Email is required";
 	private static final String expectedDashboardText = "Dashboard";
