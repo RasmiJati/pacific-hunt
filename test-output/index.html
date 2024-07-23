@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\admin\AppData\Local\Temp\testng-eclipse--1214972309\testng-customsuite.xml</span>
+                    <span>C:\Users\admin\AppData\Local\Temp\testng-eclipse--1004463672\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -108,7 +108,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.pacifichunt.tests.LoginAsJobSeekerTest" class="method navigator-link" hash-for-method="verifyValidLoginAsEmployer">verifyValidLoginAsEmployer</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.pacifichunt.tests.LoginAsJobSeekerTest" class="method navigator-link" hash-for-method="verifyValidLoginAsJobSeeker">verifyValidLoginAsJobSeeker</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -144,9 +144,9 @@ As a User, I should be getting an Error When Empty Credentials are Provided.
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyValidLoginAsEmployer">
-                  </a> <!-- verifyValidLoginAsEmployer -->
-                  <span class="method-name">verifyValidLoginAsEmployer</span>
+                  <a name="verifyValidLoginAsJobSeeker">
+                  </a> <!-- verifyValidLoginAsJobSeeker -->
+                  <span class="method-name">verifyValidLoginAsJobSeeker</span>
                   <em>
 (
 ** User Story **
@@ -160,7 +160,7 @@ As a User, I should be able to Login.
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\admin\AppData\Local\Temp\testng-eclipse--1214972309\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\admin\AppData\Local\Temp\testng-eclipse--1004463672\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -211,13 +211,13 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyValidLoginAsEmployer')
+data.setCell(0, 1, 'verifyValidLoginAsJobSeeker')
 data.setCell(0, 2, 'com.pacifichunt.tests.LoginAsJobSeekerTest')
-data.setCell(0, 3, 2538);
+data.setCell(0, 3, 2863);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyEmptyUsernameAndEmptyPassword')
 data.setCell(1, 2, 'com.pacifichunt.tests.LoginAsJobSeekerTest')
-data.setCell(1, 3, 1149);
+data.setCell(1, 3, 1050);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -238,16 +238,46 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">
 == EXECUTING MEDIUM PRIORITY TEST ==</span>
+                <span class="reporter-method-output">Before Finding ElementBy.xpath: //button[.='Login']</span>
+                <span class="reporter-method-output">Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='Login']]</span>
+                <span class="reporter-method-output">After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='Login']]</span>
+                <span class="reporter-method-output">Before Finding ElementBy.xpath: //button[.='LOGIN AS JOBSEEKER']</span>
+                <span class="reporter-method-output">Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]</span>
+                <span class="reporter-method-output">After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]</span>
+                <span class="reporter-method-output">Before Finding ElementBy.name: email</span>
+                <span class="reporter-method-output">Before sending any values to input field[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> name: email]</span>
+                <span class="reporter-method-output">Before Finding ElementBy.name: password</span>
+                <span class="reporter-method-output">Before sending any values to input field[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> name: password]</span>
+                <span class="reporter-method-output">Before Finding ElementBy.xpath: //button[@type='submit']</span>
+                <span class="reporter-method-output">Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[@type='submit']]</span>
+                <span class="reporter-method-output">After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[@type='submit']]</span>
+                <span class="reporter-method-output">Before Finding ElementBy.xpath: //p[.='Email is required']</span>
+                <span class="reporter-method-output">After getting Text from the element:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //p[.='Email is required']]</span>
                 <span class="reporter-method-output">
 === Your Test has been Passed Successfully ===
 </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyValidLoginAsEmployer</span>
+              <span class="reporter-method-name">verifyValidLoginAsJobSeeker</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">
 == EXECUTING VERY HIGH PRIORITY TEST ==</span>
+                <span class="reporter-method-output">Before Finding ElementBy.xpath: //button[.='Login']</span>
+                <span class="reporter-method-output">Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='Login']]</span>
+                <span class="reporter-method-output">After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='Login']]</span>
+                <span class="reporter-method-output">Before Finding ElementBy.xpath: //button[.='LOGIN AS JOBSEEKER']</span>
+                <span class="reporter-method-output">Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]</span>
+                <span class="reporter-method-output">After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]</span>
+                <span class="reporter-method-output">Before Finding ElementBy.name: email</span>
+                <span class="reporter-method-output">Before sending any values to input field[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> name: email]</span>
+                <span class="reporter-method-output">Before Finding ElementBy.name: password</span>
+                <span class="reporter-method-output">Before sending any values to input field[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> name: password]</span>
+                <span class="reporter-method-output">Before Finding ElementBy.xpath: //button[@type='submit']</span>
+                <span class="reporter-method-output">Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[@type='submit']]</span>
+                <span class="reporter-method-output">After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[@type='submit']]</span>
+                <span class="reporter-method-output">Before Finding ElementBy.xpath: //li[.='Dashboard']</span>
+                <span class="reporter-method-output">After getting Text from the element:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //li[.='Dashboard']]</span>
                 <span class="reporter-method-output">
 === Your Test has been Passed Successfully ===
 </span>
@@ -274,24 +304,24 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyValidLoginAsEmployer</span>
-                <span class="method-start">12876 ms</span>
+                <span class="method-name">verifyValidLoginAsJobSeeker</span>
+                <span class="method-start">4558 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15416 ms</span>
+                <span class="method-start">7422 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">15714 ms</span>
+                <span class="method-start">8260 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyEmptyUsernameAndEmptyPassword</span>
-                <span class="method-start">23190 ms</span>
+                <span class="method-start">12432 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24345 ms</span>
+                <span class="method-start">13483 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

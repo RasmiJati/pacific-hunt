@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.pacifichunt.base.BaseClass;
 
-public class LoginPageForEmployer extends BaseClass {
+public class LoginPage extends BaseClass {
 
 	WebDriver driver;
 	Properties prop;
@@ -42,6 +42,9 @@ public class LoginPageForEmployer extends BaseClass {
 	@FindBy(xpath = "//button[.='LOGIN AS EMPLOYER']")
 	private WebElement loginAsEmployer;
 
+	@FindBy(xpath = "//button[.='LOGIN AS JOBSEEKER']")
+	private WebElement loginAsJobSeeker;
+
 	@FindBy(xpath = "//p[contains(.,'Invalid email')]")
 	private WebElement invalidEmailText;
 
@@ -51,7 +54,7 @@ public class LoginPageForEmployer extends BaseClass {
 	@FindBy(xpath = "//li[.='Dashboard']")
 	private static WebElement dashboardTxt;
 
-	public LoginPageForEmployer(WebDriver driver) {
+	public LoginPage(WebDriver driver) {
 
 		PageFactory.initElements(driver, this);
 	}
@@ -86,6 +89,11 @@ public class LoginPageForEmployer extends BaseClass {
 		headerLoginBtn.click();
 	}
 
+	public void goToLoginAsJobSeeker() {
+
+		loginAsJobSeeker.click();
+	}
+
 	public void goToLoginAsEmployer() {
 
 		loginAsEmployer.click();
@@ -105,6 +113,20 @@ public class LoginPageForEmployer extends BaseClass {
 		return prop.getProperty("password");
 	}
 
+	public String getJobSeekerEmail() {
+
+		initializeCredentials();
+
+		return prop.getProperty("jobseekeremail");
+	}
+
+	public String getJobSeekerPassword() {
+
+		initializeCredentials();
+
+		return prop.getProperty("jobseekerpassword");
+	}
+
 	public void clickLoginButton() {
 
 		loginBtn.click();
@@ -114,6 +136,12 @@ public class LoginPageForEmployer extends BaseClass {
 
 		emailId.sendKeys(getEmail());
 		password.sendKeys(getPassword());
+	}
+
+	public void setValidJobSeekerCredentials() {
+
+		emailId.sendKeys(getJobSeekerEmail());
+		password.sendKeys(getJobSeekerPassword());
 	}
 
 	public void setEmptyUserNameAndEmptyPasswordCredentials() {

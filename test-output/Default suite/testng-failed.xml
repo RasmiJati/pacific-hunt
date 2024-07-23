@@ -6,8 +6,9 @@
       <class name="com.pacifichunt.tests.LoginAsJobSeekerTest">
         <methods>
           <include name="setUp"/>
-          <include name="verifyValidLoginAsEmployer"/>
           <include name="tearDown"/>
+          <include name="verifyValidLoginAsJobSeeker"/>
+          <include name="verifyEmptyUsernameAndEmptyPassword"/>
         </methods>
       </class> <!-- com.pacifichunt.tests.LoginAsJobSeekerTest -->
     </classes>

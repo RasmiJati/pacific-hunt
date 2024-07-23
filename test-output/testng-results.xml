@@ -7,8 +7,68 @@
 ]]>
     </line>
     <line>
+      <![CDATA[After Maximizing Window]]>
+    </line>
+    <line>
+      <![CDATA[Before Deleting All Cookies]]>
+    </line>
+    <line>
+      <![CDATA[Before Any Timeout Call:org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts@54aca26f]]>
+    </line>
+    <line>
+      <![CDATA[Before navigating to:https://pacifichunt.com']]>
+    </line>
+    <line>
+      <![CDATA[After navigating to:https://pacifichunt.com']]>
+    </line>
+    <line>
       <![CDATA[
 == EXECUTING VERY HIGH PRIORITY TEST ==]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.xpath: //button[.='Login']]]>
+    </line>
+    <line>
+      <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='Login']]]]>
+    </line>
+    <line>
+      <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='Login']]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.xpath: //button[.='LOGIN AS JOBSEEKER']]]>
+    </line>
+    <line>
+      <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]]]>
+    </line>
+    <line>
+      <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.name: email]]>
+    </line>
+    <line>
+      <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> name: email]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.name: password]]>
+    </line>
+    <line>
+      <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.xpath: //button[@type='submit']]]>
+    </line>
+    <line>
+      <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[@type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[@type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.xpath: //li[.='Dashboard']]]>
+    </line>
+    <line>
+      <![CDATA[After getting Text from the element:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //li[.='Dashboard']]]]>
     </line>
     <line>
       <![CDATA[
@@ -22,16 +82,86 @@
     </line>
     <line>
       <![CDATA[
+== BROWSER CLOSED SUCCESSFULLY ==
+]]>
+    </line>
+    <line>
+      <![CDATA[
 == RUNNING ON CHROME BROWSER ==
 ]]>
+    </line>
+    <line>
+      <![CDATA[After Maximizing Window]]>
+    </line>
+    <line>
+      <![CDATA[Before Deleting All Cookies]]>
+    </line>
+    <line>
+      <![CDATA[Before Any Timeout Call:org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts@4e73b552]]>
+    </line>
+    <line>
+      <![CDATA[Before navigating to:https://pacifichunt.com']]>
+    </line>
+    <line>
+      <![CDATA[After navigating to:https://pacifichunt.com']]>
     </line>
     <line>
       <![CDATA[
 == EXECUTING MEDIUM PRIORITY TEST ==]]>
     </line>
     <line>
+      <![CDATA[Before Finding ElementBy.xpath: //button[.='Login']]]>
+    </line>
+    <line>
+      <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='Login']]]]>
+    </line>
+    <line>
+      <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='Login']]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.xpath: //button[.='LOGIN AS JOBSEEKER']]]>
+    </line>
+    <line>
+      <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]]]>
+    </line>
+    <line>
+      <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.name: email]]>
+    </line>
+    <line>
+      <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> name: email]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.name: password]]>
+    </line>
+    <line>
+      <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.xpath: //button[@type='submit']]]>
+    </line>
+    <line>
+      <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[@type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[@type='submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.xpath: //p[.='Email is required']]]>
+    </line>
+    <line>
+      <![CDATA[After getting Text from the element:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //p[.='Email is required']]]]>
+    </line>
+    <line>
       <![CDATA[
 === Your Test has been Passed Successfully ===
+]]>
+    </line>
+    <line>
+      <![CDATA[
+== BROWSER CLOSED SUCCESSFULLY ==
 ]]>
     </line>
     <line>
@@ -40,29 +170,89 @@
 ]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-07-23T08:10:09 NPT" name="Default suite" finished-at="2024-07-23T08:10:34 NPT" duration-ms="24718">
+  <suite started-at="2024-07-23T12:59:24 NPT" name="Default suite" finished-at="2024-07-23T12:59:38 NPT" duration-ms="13707">
     <groups>
     </groups>
-    <test started-at="2024-07-23T08:10:09 NPT" name="Default test" finished-at="2024-07-23T08:10:34 NPT" duration-ms="24718">
+    <test started-at="2024-07-23T12:59:24 NPT" name="Default test" finished-at="2024-07-23T12:59:38 NPT" duration-ms="13707">
       <class name="com.pacifichunt.tests.LoginAsJobSeekerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:09 NPT" name="setUp" finished-at="2024-07-23T08:10:22 NPT" duration-ms="12874" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@659499f1]" started-at="2024-07-23T12:59:24 NPT" name="setUp" finished-at="2024-07-23T12:59:29 NPT" duration-ms="4556" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[
 == RUNNING ON CHROME BROWSER ==
 ]]>
             </line>
+            <line>
+              <![CDATA[After Maximizing Window]]>
+            </line>
+            <line>
+              <![CDATA[Before Deleting All Cookies]]>
+            </line>
+            <line>
+              <![CDATA[Before Any Timeout Call:org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts@54aca26f]]>
+            </line>
+            <line>
+              <![CDATA[Before navigating to:https://pacifichunt.com']]>
+            </line>
+            <line>
+              <![CDATA[After navigating to:https://pacifichunt.com']]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyValidLoginAsEmployer()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:22 NPT" name="verifyValidLoginAsEmployer" description="
+        <test-method signature="verifyValidLoginAsJobSeeker()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@659499f1]" started-at="2024-07-23T12:59:29 NPT" name="verifyValidLoginAsJobSeeker" description="
 ** User Story **
 == Verify Valid Login Scenario ==
 As a User, I should be able to Login.
-" finished-at="2024-07-23T08:10:25 NPT" duration-ms="2538" status="PASS">
+" finished-at="2024-07-23T12:59:32 NPT" duration-ms="2863" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[
 == EXECUTING VERY HIGH PRIORITY TEST ==]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //button[.='Login']]]>
+            </line>
+            <line>
+              <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='Login']]]]>
+            </line>
+            <line>
+              <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='Login']]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //button[.='LOGIN AS JOBSEEKER']]]>
+            </line>
+            <line>
+              <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]]]>
+            </line>
+            <line>
+              <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.name: email]]>
+            </line>
+            <line>
+              <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> name: email]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.name: password]]>
+            </line>
+            <line>
+              <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //button[@type='submit']]]>
+            </line>
+            <line>
+              <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[@type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //button[@type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //li[.='Dashboard']]]>
+            </line>
+            <line>
+              <![CDATA[After getting Text from the element:[[ChromeDriver: chrome on windows (1aba75292f8ddab1cb8e2cc69e536912)] -> xpath: //li[.='Dashboard']]]]>
             </line>
             <line>
               <![CDATA[
@@ -70,9 +260,14 @@ As a User, I should be able to Login.
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyValidLoginAsEmployer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:25 NPT" name="tearDown" finished-at="2024-07-23T08:10:25 NPT" duration-ms="296" status="PASS">
+        </test-method> <!-- verifyValidLoginAsJobSeeker -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@659499f1]" started-at="2024-07-23T12:59:32 NPT" name="tearDown" finished-at="2024-07-23T12:59:33 NPT" duration-ms="835" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[
+== BROWSER CLOSED SUCCESSFULLY ==
+]]>
+            </line>
             <line>
               <![CDATA[
 == BROWSER CLOSED SUCCESSFULLY ==
@@ -80,24 +275,84 @@ As a User, I should be able to Login.
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:25 NPT" name="setUp" finished-at="2024-07-23T08:10:33 NPT" duration-ms="7476" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@659499f1]" started-at="2024-07-23T12:59:33 NPT" name="setUp" finished-at="2024-07-23T12:59:37 NPT" duration-ms="4172" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[
 == RUNNING ON CHROME BROWSER ==
 ]]>
             </line>
+            <line>
+              <![CDATA[After Maximizing Window]]>
+            </line>
+            <line>
+              <![CDATA[Before Deleting All Cookies]]>
+            </line>
+            <line>
+              <![CDATA[Before Any Timeout Call:org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts@4e73b552]]>
+            </line>
+            <line>
+              <![CDATA[Before navigating to:https://pacifichunt.com']]>
+            </line>
+            <line>
+              <![CDATA[After navigating to:https://pacifichunt.com']]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyEmptyUsernameAndEmptyPassword()[pri:2, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:33 NPT" name="verifyEmptyUsernameAndEmptyPassword" description="
+        <test-method signature="verifyEmptyUsernameAndEmptyPassword()[pri:2, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@659499f1]" started-at="2024-07-23T12:59:37 NPT" name="verifyEmptyUsernameAndEmptyPassword" description="
 ** User Story **
 == Verify Empty Email &amp; Password Login Scenario ==
 As a User, I should be getting an Error When Empty Credentials are Provided.
-" finished-at="2024-07-23T08:10:34 NPT" duration-ms="1149" status="PASS">
+" finished-at="2024-07-23T12:59:38 NPT" duration-ms="1050" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[
 == EXECUTING MEDIUM PRIORITY TEST ==]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //button[.='Login']]]>
+            </line>
+            <line>
+              <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='Login']]]]>
+            </line>
+            <line>
+              <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='Login']]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //button[.='LOGIN AS JOBSEEKER']]]>
+            </line>
+            <line>
+              <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]]]>
+            </line>
+            <line>
+              <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[.='LOGIN AS JOBSEEKER']]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.name: email]]>
+            </line>
+            <line>
+              <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> name: email]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.name: password]]>
+            </line>
+            <line>
+              <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //button[@type='submit']]]>
+            </line>
+            <line>
+              <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[@type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //button[@type='submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //p[.='Email is required']]]>
+            </line>
+            <line>
+              <![CDATA[After getting Text from the element:[[ChromeDriver: chrome on windows (9ed2b4adabe22a13238734ada96f7178)] -> xpath: //p[.='Email is required']]]]>
             </line>
             <line>
               <![CDATA[
@@ -106,8 +361,13 @@ As a User, I should be getting an Error When Empty Credentials are Provided.
             </line>
           </reporter-output>
         </test-method> <!-- verifyEmptyUsernameAndEmptyPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:34 NPT" name="tearDown" finished-at="2024-07-23T08:10:34 NPT" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@659499f1]" started-at="2024-07-23T12:59:38 NPT" name="tearDown" finished-at="2024-07-23T12:59:38 NPT" duration-ms="180" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[
+== BROWSER CLOSED SUCCESSFULLY ==
+]]>
+            </line>
             <line>
               <![CDATA[
 == BROWSER CLOSED SUCCESSFULLY ==
