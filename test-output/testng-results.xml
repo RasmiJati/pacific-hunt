@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[
+== RUNNING ON CHROME BROWSER ==
+]]>
+    </line>
+    <line>
+      <![CDATA[
+== EXECUTING VERY HIGH PRIORITY TEST ==]]>
+    </line>
+    <line>
+      <![CDATA[
+=== Your Test has been Passed Successfully ===
+]]>
+    </line>
+    <line>
+      <![CDATA[
+== BROWSER CLOSED SUCCESSFULLY ==
+]]>
+    </line>
+    <line>
+      <![CDATA[
+== RUNNING ON CHROME BROWSER ==
+]]>
+    </line>
+    <line>
+      <![CDATA[
+== EXECUTING MEDIUM PRIORITY TEST ==]]>
+    </line>
+    <line>
+      <![CDATA[
+=== Your Test has been Passed Successfully ===
+]]>
+    </line>
+    <line>
+      <![CDATA[
+== BROWSER CLOSED SUCCESSFULLY ==
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-23T08:10:09 NPT" name="Default suite" finished-at="2024-07-23T08:10:34 NPT" duration-ms="24718">
+    <groups>
+    </groups>
+    <test started-at="2024-07-23T08:10:09 NPT" name="Default test" finished-at="2024-07-23T08:10:34 NPT" duration-ms="24718">
+      <class name="com.pacifichunt.tests.LoginAsJobSeekerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:09 NPT" name="setUp" finished-at="2024-07-23T08:10:22 NPT" duration-ms="12874" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+== RUNNING ON CHROME BROWSER ==
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidLoginAsEmployer()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:22 NPT" name="verifyValidLoginAsEmployer" description="
+** User Story **
+== Verify Valid Login Scenario ==
+As a User, I should be able to Login.
+" finished-at="2024-07-23T08:10:25 NPT" duration-ms="2538" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+== EXECUTING VERY HIGH PRIORITY TEST ==]]>
+            </line>
+            <line>
+              <![CDATA[
+=== Your Test has been Passed Successfully ===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginAsEmployer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:25 NPT" name="tearDown" finished-at="2024-07-23T08:10:25 NPT" duration-ms="296" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+== BROWSER CLOSED SUCCESSFULLY ==
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:25 NPT" name="setUp" finished-at="2024-07-23T08:10:33 NPT" duration-ms="7476" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+== RUNNING ON CHROME BROWSER ==
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyUsernameAndEmptyPassword()[pri:2, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:33 NPT" name="verifyEmptyUsernameAndEmptyPassword" description="
+** User Story **
+== Verify Empty Email &amp; Password Login Scenario ==
+As a User, I should be getting an Error When Empty Credentials are Provided.
+" finished-at="2024-07-23T08:10:34 NPT" duration-ms="1149" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+== EXECUTING MEDIUM PRIORITY TEST ==]]>
+            </line>
+            <line>
+              <![CDATA[
+=== Your Test has been Passed Successfully ===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyUsernameAndEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pacifichunt.tests.LoginAsJobSeekerTest@82de64a]" started-at="2024-07-23T08:10:34 NPT" name="tearDown" finished-at="2024-07-23T08:10:34 NPT" duration-ms="305" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+== BROWSER CLOSED SUCCESSFULLY ==
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pacifichunt.tests.LoginAsJobSeekerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

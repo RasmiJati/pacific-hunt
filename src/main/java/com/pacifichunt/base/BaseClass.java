@@ -7,8 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
-//import org.openqa.selenium.support.events.EventFiringDecorator;
-//import org.openqa.selenium.support.events.WebDriverListener;
 import org.testng.annotations.BeforeMethod;
 
 import com.pacifichunt.testutil.Utilities;
@@ -17,8 +15,6 @@ public class BaseClass {
 
 	public static WebDriver driver;
 	public static WebDriver eventDriver;
-	// public static WebEventListener listener;
-	// public static EventFiringDecorator<WebDriver> decorator;
 
 	@BeforeMethod
 	public void setUp() {
@@ -47,7 +43,6 @@ public class BaseClass {
 
 		}
 
-		// callEventListenerWebDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Utilities.IMPLICIT_WAIT_TIME));
@@ -56,19 +51,10 @@ public class BaseClass {
 
 	}
 
-	/*
-	 * public static WebDriver callEventListenerWebDriver() {
-	 *
-	 * listener = new WebEventListener(); decorator = new
-	 * EventFiringDecorator<WebDriver>(listener); eventDriver =
-	 * decorator.decorate(driver); driver = eventDriver; return driver; }
-	 *
-	 */
-
 	@AfterMethod
 	public void tearDown() {
 
-		// Reporter.log(Utilities.CLOSNG_BROWSER_SESSION, true);
+		Reporter.log(Utilities.CLOSNG_BROWSER_SESSION, true);
 		driver.quit();
 	}
 

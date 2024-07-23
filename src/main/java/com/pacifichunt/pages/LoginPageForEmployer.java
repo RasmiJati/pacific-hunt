@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.pacifichunt.base.BaseClass;
 
-public class LoginPage extends BaseClass {
+public class LoginPageForEmployer extends BaseClass {
 
 	WebDriver driver;
 	Properties prop;
@@ -51,7 +51,7 @@ public class LoginPage extends BaseClass {
 	@FindBy(xpath = "//li[.='Dashboard']")
 	private static WebElement dashboardTxt;
 
-	public LoginPage(WebDriver driver) {
+	public LoginPageForEmployer(WebDriver driver) {
 
 		PageFactory.initElements(driver, this);
 	}

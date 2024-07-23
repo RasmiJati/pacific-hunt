@@ -5,12 +5,11 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.pacifichunt.base.BaseClass;
-import com.pacifichunt.pages.LoginPageForEmployer;
 import com.pacifichunt.pages.LoginPageForJobSeeker;
 import com.pacifichunt.testutil.Utilities;
 import com.pacifichunt.userstories.UserStories;
 
-public class LoginAsEmployerTest extends BaseClass {
+public class LoginAsJobSeekerTest extends BaseClass {
 
 	@Test(priority = Utilities.VERY_HIGH_PRIORITY, enabled = true, description = UserStories.REQUIREMENT_TYPE
 			+ UserStories.VALID_LOGIN_SCENARIO + UserStories.VALID_LOGIN_STATEMENT)
@@ -18,9 +17,8 @@ public class LoginAsEmployerTest extends BaseClass {
 
 		Reporter.log(Utilities.VERY_HIGH_PRIORITY_STATEMENT, true);
 
-		LoginPageForEmployer login = new LoginPageForEmployer(driver);
+		LoginPageForJobSeeker login = new LoginPageForJobSeeker(driver);
 		login.goToHeaderLoginBtn();
-		login.goToLoginAsEmployer();
 		login.setValidCredentials();
 		login.clickLoginButton();
 		Assert.assertEquals(LoginPageForJobSeeker.getDashboardText(), LoginPageForJobSeeker.getExpectedDashboardText());
@@ -33,9 +31,8 @@ public class LoginAsEmployerTest extends BaseClass {
 
 		Reporter.log(Utilities.MEDIUM_PRIORITY_STATEMENT, true);
 
-		LoginPageForEmployer login = new LoginPageForEmployer(driver);
+		LoginPageForJobSeeker login = new LoginPageForJobSeeker(driver);
 		login.goToHeaderLoginBtn();
-		login.goToLoginAsEmployer();
 		login.setEmptyUserNameAndEmptyPasswordCredentials();
 		login.clickLoginButton();
 		Assert.assertEquals(login.getEmptyEmailText(), login.getExpectedEmptyEmailText());
